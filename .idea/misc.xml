@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/background_gradient_login.xml" value="0.126" />
+        <entry key="app/src/main/res/drawable/card_inside_info.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_inside_info.xml" value="0.32040472175379425" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.28249969482421877" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23270962224530345" />
+        <entry key="app/src/main/res/layout/card_pokemon.xml" value="0.476637780966879" />
+        <entry key="app/src/main/res/layout/fragment_about.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_evolutions.xml" value="0.3860552580460258" />
+        <entry key="app/src/main/res/layout/fragment_movements.xml" value="0.22554347826086957" />
+        <entry key="app/src/main/res/layout/fragment_stats.xml" value="0.24210526315789474" />
+        <entry key="app/src/main/res/layout/item_evolution.xml" value="0.4652117521866509" />
+        <entry key="app/src/main/res/menu/insideinfo_menu.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

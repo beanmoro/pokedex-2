@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    >
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="PS"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:layout_marginTop="1dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/stat_number_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="30"
+            android:textColor="@color/black"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            />
+
+
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:progressTint="#FE9E86"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="118dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="2dp"
+            android:progress="30"
+            />
+
+
+    </RelativeLayout> <!-- PS -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Ataque"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:layout_marginTop="1dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/stat_number_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="25"
+            android:textColor="@color/black"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:progressTint="#FE9E86"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="118dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="2dp"
+            android:progress="25"
+            />
+
+
+
+    </RelativeLayout> <!-- Ataque -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Defensa"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:layout_marginTop="1dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/stat_number_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="30"
+            android:textColor="@color/black"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+
+            />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:progressTint="#FE9E86"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="118dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="2dp"
+            android:progress="30"
+            />
+
+
+
+    </RelativeLayout> <!-- Defensa -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+
+        >
+
+        <TextView
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Ataque Especial"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:layout_marginTop="1dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/stat_number_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="41"
+            android:textColor="@color/black"
+            android:layout_marginTop="6dp"
+            android:textSize="10sp"
+            android:layout_marginEnd="16dp"
+
+            />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:progressTint="#FE9E86"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="118dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="6dp"
+            android:progress="41"
+            />
+
+
+
+    </RelativeLayout> <!-- Ataque Especial -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+
+        >
+
+        <TextView
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Defensa Especial"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:layout_marginTop="1dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/stat_number_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="43"
+            android:textColor="@color/black"
+            android:layout_marginTop="6dp"
+            android:textSize="10sp"
+            android:layout_marginEnd="16dp"
+
+            />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:progressTint="#FE9E86"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="118dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="6dp"
+            android:progress="43"
+            />
+
+
+
+    </RelativeLayout> <!-- Defensa Especial -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Velocidad"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:layout_marginTop="1dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/stat_number_margin"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="30"
+            android:textColor="@color/black"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:progressTint="#FE9E86"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="118dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="2dp"
+            android:progress="30"
+            />
+
+
+
+    </RelativeLayout> <!-- Velocidad -->
+
+
+</LinearLayout>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:elevation="1dp"
+        >
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/ic_iso"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/filter_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_filter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/logout_btn"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/logout_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="28.25dp"
+
+                android:src="@drawable/ic_logout"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="24dp"
+
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="136dp"
+            android:fontFamily="@font/montserrat_alternates_bold"
+            android:text="Bienvenido!"
+            android:textColor="@color/black"
+            android:textSize="32dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textSize="16sp"
+        android:textColor="#0070B6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="183dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="nombre_usuario" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="183.5dp"
+        >
+
+    <HorizontalScrollView
+        android:id="@+id/filter_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/like_filter_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="32dp"
+                app:cardBackgroundColor="@color/like"
+                app:cardCornerRadius="18dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="26dp"
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_like"
+                    android:layout_gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/grass_filter_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="32dp"
+                app:cardBackgroundColor="@color/grass"
+                app:cardCornerRadius="18dp"
+                android:layout_marginStart="8dp"
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_grass"
+                    android:layout_gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fire_filter_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="32dp"
+                app:cardBackgroundColor="@color/fire"
+                app:cardCornerRadius="18dp"
+                android:layout_marginStart="8dp"
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_fire"
+                    android:layout_gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/water_filter_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="32dp"
+                app:cardBackgroundColor="@color/water"
+                app:cardCornerRadius="18dp"
+                android:layout_marginStart="8dp"
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_water"
+                    android:layout_gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/electric_filter_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="32dp"
+                app:cardBackgroundColor="@color/electric"
+                app:cardCornerRadius="18dp"
+                android:layout_marginStart="8dp"
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_electric"
+                    android:layout_gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/poison_filter_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="32dp"
+                app:cardBackgroundColor="@color/poison"
+                app:cardCornerRadius="18dp"
+                android:layout_marginStart="8dp"
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_poison"
+                    android:layout_gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/psychic_filter_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="32dp"
+                app:cardBackgroundColor="@color/psychic"
+                app:cardCornerRadius="18dp"
+                android:layout_marginStart="8dp"
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_psi"
+                    android:layout_gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/flying_filter_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="32dp"
+                app:cardBackgroundColor="@color/flying"
+                app:cardCornerRadius="18dp"
+                android:layout_marginStart="8dp"
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_fly"
+                    android:layout_gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ice_filter_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="32dp"
+                app:cardBackgroundColor="@color/ice"
+                app:cardCornerRadius="18dp"
+                android:layout_marginStart="8dp"
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_ice"
+                    android:layout_gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/rock_filter_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="32dp"
+                app:cardBackgroundColor="@color/rock"
+                app:cardCornerRadius="18dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="24dp"
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_rock"
+                    android:layout_gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:padding="10dp"
+            app:cardCornerRadius="8dp"
+            app:strokeColor="#C7C7C7"
+
+            app:strokeWidth="0.5dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_search"
+                android:drawablePadding="15dp"
+                android:hint="Buscar Pokemon, Movimiento, Habilidad"
+                android:textSize="12sp"
+
+                />
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pokedex"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_alternates_bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="8dp"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            />
+
+    </LinearLayout>
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

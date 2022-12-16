@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/grass"
+    app:cardCornerRadius="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginHorizontal="8dp"
+    android:id="@+id/card"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:id="@+id/textview_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto_mono_bold"
+        android:text="#001"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textiview_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bulbasaur"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="8dp"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+
+        />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="129dp"
+            android:layout_marginTop="10.49dp"
+            android:layout_marginEnd="9.5dp"
+            android:src="@drawable/ic_like" />
+
+        <ImageView
+            android:id="@+id/imageview_artwork"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/test_pokemon" />
+
+
+    <com.google.android.material.card.MaterialCardView
+
+        android:id="@+id/card_type_slot0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:cardBackgroundColor="@color/grassChip"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="8dp"
+        >
+        <TextView
+            android:id="@+id/text_type_slot0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Planta"
+            android:textSize="8sp"
+            android:fontFamily="@font/montserrat_alternates_bold"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="8dp"
+            android:textColor="@color/white"
+
+
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <!--
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="8dp"
+        app:chipSpacing="0dp"
+
+        >
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/chipText"
+            android:text="Planta"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="#3CDDC3"
+            app:chipStartPadding="2dp"
+            app:chipEndPadding="2dp"
+            app:chipMinHeight="20dp"
+            />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/chipText"
+            android:text="Veneno"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="#C46BCC"
+            app:chipStartPadding="2dp"
+            app:chipEndPadding="2dp"
+            app:chipMinHeight="20dp"
+            />
+
+    </com.google.android.material.chip.ChipGroup>
+       -->
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_type_slot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:cardBackgroundColor="@color/poisonChip"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginStart="8dp"
+        android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/text_type_slot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Veneno"
+            android:textSize="8sp"
+            android:fontFamily="@font/montserrat_alternates_bold"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="8dp"
+            android:textColor="@color/white"
+
+
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    </RelativeLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

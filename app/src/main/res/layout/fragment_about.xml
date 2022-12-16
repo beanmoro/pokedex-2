@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        android:orientation="vertical"
+        >
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F5F5F5"
+        app:cardCornerRadius="24dp"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+
+            <TextView
+                android:id="@+id/height_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="ALTURA"
+                android:textSize="9sp"
+
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="34dp"
+                />
+
+            <TextView
+                android:id="@+id/height_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="28dp"
+
+
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="2.0 M"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="PESO"
+                android:textSize="9sp"
+
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="44dp"
+                />
+
+
+            <TextView
+                android:id="@+id/weight_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="36dp"
+
+
+                android:layout_marginEnd="22dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="100.0 KG"
+                android:textSize="17dp" />
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F5F5F5"
+        app:cardCornerRadius="24dp"
+        android:layout_marginTop="24dp"
+
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="CATEGORIA"
+                android:textSize="9sp"
+
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="34dp"
+                />
+
+            <TextView
+                android:id="@+id/type_slot0_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="24dp"
+
+
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="SEMILLA"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="HABILIDAD"
+                android:textSize="9sp"
+
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="44dp"
+                />
+
+
+            <TextView
+                android:id="@+id/skill_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="36dp"
+
+
+                android:layout_marginEnd="22dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="ESPESURA"
+                android:textSize="17dp" />
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/roboto"
+        android:text="Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo.\n\n
+Desde que nace, crece alimentándose de los nutrientes que contiene la semilla de su lomo." />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="DEBILIDAD"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:backgroundTint="@color/fire"
+                app:cardCornerRadius="8dp"
+                android:layout_marginEnd="8dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fuego"
+                    android:textSize="8sp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:layout_marginVertical="4dp"
+                    android:layout_marginHorizontal="8dp"
+                    android:textColor="@color/white"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:backgroundTint="@color/psychic"
+                app:cardCornerRadius="8dp"
+                android:layout_marginEnd="8dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Psiquico"
+                    android:textSize="8sp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:layout_marginVertical="4dp"
+                    android:layout_marginHorizontal="8dp"
+                    android:textColor="@color/white"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:backgroundTint="@color/flying"
+                app:cardCornerRadius="8dp"
+                android:layout_marginEnd="8dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Volador"
+                    android:textSize="8sp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:layout_marginVertical="4dp"
+                    android:layout_marginHorizontal="8dp"
+                    android:textColor="@color/white"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:backgroundTint="@color/ice"
+                app:cardCornerRadius="8dp"
+                android:layout_marginEnd="8dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hielo"
+                    android:textSize="8sp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:layout_marginVertical="4dp"
+                    android:layout_marginHorizontal="8dp"
+                    android:textColor="@color/white"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="VERSIONES"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="4dp"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_version_blue"
+                android:layout_marginEnd="8dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_version_red"
+                android:layout_marginEnd="8dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="SEXO"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="4dp"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_gender_male"
+                android:layout_marginEnd="8dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_gender_female"
+                android:layout_marginEnd="8dp"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

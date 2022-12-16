@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="like">#E85454</color>
+    <color name="grass">#13C7A7</color>
+    <color name="fire">#FF6164</color>
+    <color name="water">#5EB5F8</color>
+    <color name="electric">#FFD063</color>
+    <color name="poison">#B25BBA</color>
+    <color name="psychic">#E736C0</color>
+    <color name="flying">#2E3F67</color>
+    <color name="ice">#9AD7F9</color>
+    <color name="rock">#464646</color>
+
+
+    <color name="grassChip">#3CDDC3</color>
+    <color name="fireChip">#FF7B7D</color>
+    <color name="waterChip">#7DCDFB</color>
+    <color name="electricChip">#E4C96D</color>
+    <color name="poisonChip">#C46BCC</color>
+    <color name="psychicChip">#FF7BE2</color>
+    <color name="flyingChip">#5E6C8C</color>
+    <color name="iceChip">#B7CDD9</color>
+    <color name="rockChip">#212121</color>
+
+
+
+
+</resources>
